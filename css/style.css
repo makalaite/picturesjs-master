@@ -1,0 +1,51 @@
+div {
+    width: 700px;
+}
+
+ul {
+    background-color: grey;
+
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+/* close commented backslash hack */
+
+.border {
+    border: 5px cornflowerblue dotted;
+}
+
+a {
+    font-style: oblique;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1px;
+}
